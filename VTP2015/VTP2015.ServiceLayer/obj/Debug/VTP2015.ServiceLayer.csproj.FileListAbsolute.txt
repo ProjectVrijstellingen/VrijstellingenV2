@@ -55,3 +55,22 @@ C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLay
 C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.csprojResolveAssemblyReference.cache
 C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.dll
 C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.pdb
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.dll.config
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.pdb
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\AutoMapper.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\Ninject.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\nunit.framework.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.DataAccess.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.Entities.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\EntityFramework.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.DataAccess.pdb
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.Entities.pdb
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\AutoMapper.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\Ninject.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\nunit.framework.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\bin\Debug\EntityFramework.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.pdb

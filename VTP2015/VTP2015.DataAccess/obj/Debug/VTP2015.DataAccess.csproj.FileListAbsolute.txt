@@ -55,3 +55,22 @@ C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess
 C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.dll
 C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.pdb
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.dll.config
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.pdb
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\itextsharp.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\Owin.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.Entities.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.Entities.pdb
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\itextsharp.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.dll
+C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.pdb
