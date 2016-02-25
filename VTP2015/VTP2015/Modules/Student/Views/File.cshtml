@@ -1,0 +1,39 @@
+﻿@using VTP2015.Helpers
+@{
+    ViewBag.Title = "Student - FileStudentName";
+}
+
+
+<div class="container-fix">
+    <br/>
+</div>
+
+<div class="container-fix">
+    <form role="form">
+        <div class="container-fix">
+            <div class="row">
+                <div id="bewijzenColumn" class="col-md-4 hide">
+                    @Html.Action("SelectEvidenceWidget")
+                    @Html.Action("SelectEducationWidget")
+                </div>
+
+                @Html.Action("AvailablePartimsWidget")
+
+                @Html.Action("RequestDetailWidget")
+
+                @Html.Action("RequestedPartimsWidget")
+            </div>
+        </div>
+    </form>
+</div>
+@Scripts.Render("~/bundles/student")
+@section css{
+    <style>
+        .list-group-item {
+            cursor: default;
+        }
+         .partim, .module, .semester, .status {
+             cursor: pointer;
+         }
+    </style>
+}

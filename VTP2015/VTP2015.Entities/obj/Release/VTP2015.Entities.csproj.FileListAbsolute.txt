@@ -1,0 +1,10 @@
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\bin\Release\VTP2015.Entities.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\bin\Release\VTP2015.Entities.pdb
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\bin\Release\AutoMapper.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\bin\Release\Elmah.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\bin\Release\nunit.framework.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\bin\Release\System.Data.SqlServerCe.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\bin\Release\AutoMapper.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\bin\Release\nunit.framework.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\obj\Release\VTP2015.Entities.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.Entities\obj\Release\VTP2015.Entities.pdb

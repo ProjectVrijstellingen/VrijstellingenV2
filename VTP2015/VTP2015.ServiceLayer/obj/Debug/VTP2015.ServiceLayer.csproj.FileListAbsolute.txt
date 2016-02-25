@@ -1,0 +1,57 @@
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.csprojResolveAssemblyReference.cache
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.dll.config
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.pdb
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\AutoMapper.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\Ninject.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\nunit.framework.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\System.Linq.Dynamic.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.DataAccess.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.Entities.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\EntityFramework.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.DataAccess.pdb
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.Entities.pdb
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\AutoMapper.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\Ninject.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\nunit.framework.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\bin\Debug\EntityFramework.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.pdb
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.dll.config
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.pdb
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\AutoMapper.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\Ninject.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\nunit.framework.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.DataAccess.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.Entities.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\EntityFramework.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.DataAccess.pdb
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.Entities.pdb
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\AutoMapper.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\Ninject.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\nunit.framework.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\EntityFramework.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.pdb
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.dll.config
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.ServiceLayer.pdb
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\AutoMapper.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\Ninject.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\nunit.framework.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.DataAccess.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.Entities.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\EntityFramework.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.DataAccess.pdb
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\VTP2015.Entities.pdb
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\AutoMapper.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\Ninject.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\nunit.framework.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\bin\Debug\EntityFramework.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.ServiceLayer\obj\Debug\VTP2015.ServiceLayer.pdb

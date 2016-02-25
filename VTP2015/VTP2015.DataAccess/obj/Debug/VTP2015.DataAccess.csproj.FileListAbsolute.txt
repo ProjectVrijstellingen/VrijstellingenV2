@@ -1,0 +1,57 @@
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.dll.config
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.pdb
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\itextsharp.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.Security.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\Owin.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.Entities.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.Entities.pdb
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\itextsharp.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.Security.xml
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.csprojResolveAssemblyReference.cache
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.dll
+D:\bestanden\VTP2015v2\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.pdb
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.dll.config
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.pdb
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\itextsharp.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Owin.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.Entities.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.Entities.pdb
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\itextsharp.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.dll
+C:\Users\Jamie\Dropbox\Project4\originele versie\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.pdb
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.dll.config
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.DataAccess.pdb
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\itextsharp.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Owin.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.Entities.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\VTP2015.Entities.pdb
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\itextsharp.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.dll
+C:\Users\Jamie\Desktop\Project_vrijstellingen\VTP2015\VTP2015\VTP2015.DataAccess\obj\Debug\VTP2015.DataAccess.pdb
