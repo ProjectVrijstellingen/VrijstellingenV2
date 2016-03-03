@@ -11,12 +11,12 @@
         
         <div class="col-md-10">
             <ul class="list-inline">
-                <li class=""><a href="#">Aanvraagformulier</a></li>
-                <li class=""><a href="#">Opleidingen</a></li>
-                <li class="hide" id="navBewijs"><a href="#">Bewijzen</a></li>
-                <li class="hide" id="navDossier"><a href="#">Dossier</a></li>
+                <li class="">Aanvraagformulier</li>
+                <li class=""><a href="#" id="navStap1">Opleidingen</a></li>
+                <li class="hide"><a href="#" id="navStap2">Bewijzen</a></li>
+                <li class="hide"><a href="#" id="navStap3">Dossier</a></li>
             </ul>
-            <div id="stap1" class="">
+            <div id="stap1">
                 @using (Html.BeginPanel("Vorige opleidingen die u hebt gevolgd:"))
             {
                     @Html.Action("EducationListWidget")
@@ -71,18 +71,44 @@
 @Scripts.Render("~/bundles/student")
 
 <script type="text/javascript">
-
+    
+    //buttons
     $("#buttonStap1").click(function () {
-        $("#stap1").addClass('hide');
-        $("#stap2").removeClass('hide');
-        
+        toonStap(2);
+        $("#navStap2").parent().removeClass('hide');
     });
-
     $("#buttonStap2").click(function () {
-        $("#stap2").addClass('hide');
-        $("#stap3").removeClass('hide');
-        $("#navBewijs").removeClass('hide');
-
+        toonStap(3);
+        $("#navStap3").parent().removeClass('hide');
     });
+
+    //nav bars
+    $("#navStap1").click(function (e) {
+        e.preventDefault();
+        toonStap(1);
+    });
+
+    $("#navStap2").click(function (e) {
+        e.preventDefault();
+        toonStap(2);
+    });
+
+    $("#navStap3").click(function (e) {
+        e.preventDefault();
+        toonStap(3);
+    });
+
+    var toonStap = function (nr) {
+        console.log(nr);
+        VerbergAllStappen(3);
+        $("#stap" + nr).removeClass('hide');
+    }
+
+    var VerbergAllStappen = function (AantalStappen) {
+        for (var i = 0; i <= AantalStappen; i++)
+        {
+            $("#stap" + i).addClass('hide');
+        }
+    }
 
 </script>
