@@ -6,7 +6,49 @@
   <br />
 </div>
 
-<div class="container-fix">
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-10">
+            <ul class="list-inline">
+                <li class=""><a href="#">Aanvraagformulier</a></li>
+                <li class=""><a href="#">Opleidingen</a></li>
+                <li class="hide" id="navBewijs"><a href="#">Bewijzen</a></li>
+                <li class="hide" id="navDossier"><a href="#">Dossier</a></li>
+            </ul>
+            <div id="stap1" class="">
+                @using (Html.BeginPanel("Vorige opleidingen die u hebt gevolgd:"))
+            {
+                    @Html.Action("EducationListWidget")
+                    @Html.Action("AddEducationWidget")
+                }
+                <button id="buttonStap1" type="button" class="btn btn-primary" style="float:right">Volgende stap</button>
+            </div>
+           
+            <div id="stap2" class="hide">
+                @using (Html.BeginPanel("Dien hier uw bewijzen in (bijvoorbeeld een rapport):"))
+            {
+                    @Html.Action("EvidenceListWidget")
+                    @Html.Action("AddFileWidget")
+                }
+                <button id="buttonStap2" type="button" class="btn btn-primary" style="float:right">Volgende stap</button>
+            </div>
+            
+            <div id="stap3" class="hide">
+                <div data-url="@Url.Action("SubmitFile","Student")">
+                    @Html.Action("FileWidget")
+                </div>
+            </div>
+           
+        </div>
+        <div class="col-md-2">
+           @Html.Action("InfoWidget")
+        </div>
+    </div>
+</div>
+
+
+@*<div class="container-fix">
     <div id="infoSide" class="col-md-6" data-url="@Url.Action("SubmitFile","Student")">
         @Html.Action("InfoWidget")
         @Html.Action("FileWidget")
@@ -24,6 +66,23 @@
             @Html.Action("AddFileWidget")
         }
     </div>
-</div>
+</div>*@
 
 @Scripts.Render("~/bundles/student")
+
+<script type="text/javascript">
+
+    $("#buttonStap1").click(function () {
+        $("#stap1").addClass('hide');
+        $("#stap2").removeClass('hide');
+        
+    });
+
+    $("#buttonStap2").click(function () {
+        $("#stap2").addClass('hide');
+        $("#stap3").removeClass('hide');
+        $("#navBewijs").removeClass('hide');
+
+    });
+
+</script>

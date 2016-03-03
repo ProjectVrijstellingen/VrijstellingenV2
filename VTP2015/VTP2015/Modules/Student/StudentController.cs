@@ -51,6 +51,9 @@ namespace VTP2015.Modules.Student
                 errors.Add("FileName does already exist!");
                 return Json(errors.ToArray());
             }
+            /*aangepast*/
+            Directory.CreateDirectory(Server.MapPath("/bewijzen/"+name));
+            /*tot hier*/
             viewModel.File.SaveAs(path);
 
             var dbBewijs = new Evidence
