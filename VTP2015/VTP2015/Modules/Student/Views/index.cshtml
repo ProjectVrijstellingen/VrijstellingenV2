@@ -22,7 +22,7 @@
                     @Html.Action("EducationListWidget")
                     @Html.Action("AddEducationWidget")
                 }
-                <button id="buttonStap1" type="button" class="btn btn-primary" style="float:right">Volgende stap</button>
+                @Html.NextButton("btnStap1")
             </div>
            
             <div id="stap2" class="hide">
@@ -31,7 +31,7 @@
                     @Html.Action("EvidenceListWidget")
                     @Html.Action("AddFileWidget")
                 }
-                <button id="buttonStap2" type="button" class="btn btn-primary" style="float:right">Volgende stap</button>
+                @Html.NextButton("btnStap2")
             </div>
             
             <div id="stap3" class="hide">
@@ -71,13 +71,17 @@
 @Scripts.Render("~/bundles/student")
 
 <script type="text/javascript">
-    
+    //pas refactoren als alle views goed staan.
+    $(document).ready(function () {
+        showPrevProgress();
+    });
+
     //buttons
-    $("#buttonStap1").click(function () {
+    $("#btnStap1").click(function () {
         toonStap(2);
         $("#navStap2").parent().removeClass('hide');
     });
-    $("#buttonStap2").click(function () {
+    $("#btnStap2").click(function () {
         toonStap(3);
         $("#navStap3").parent().removeClass('hide');
     });
@@ -99,7 +103,10 @@
     });
 
     var toonStap = function (nr) {
-        console.log(nr);
+        if (nr > localStorage.getItem("lastStep"))
+        {
+            localStorage.lastStep = nr;
+        }
         VerbergAllStappen(3);
         $("#stap" + nr).removeClass('hide');
     }
@@ -108,6 +115,14 @@
         for (var i = 0; i <= AantalStappen; i++)
         {
             $("#stap" + i).addClass('hide');
+        }
+    }
+
+    var showPrevProgress = function () {
+        var prevProgress = localStorage.getItem("lastStep")
+        for (var i = 0; i <= prevProgress; i++)
+        {
+            $("#navStap" + i).parent().removeClass('hide');
         }
     }
 

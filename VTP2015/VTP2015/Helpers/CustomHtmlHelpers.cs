@@ -253,9 +253,21 @@ namespace VTP2015.Helpers
 
         public static string TextLimiter(string text, int length)
         {
-            
             if (text.Length <= length) return text;
             return text.Substring(0, length - 1) + "...";
+        }
+
+        public static MvcHtmlString NextButton(this HtmlHelper html, string id)
+        {
+            TagBuilder htmlButton = new TagBuilder("button");
+
+            htmlButton.Attributes.Add("id", id);
+            htmlButton.Attributes.Add("class", "btn btn-primary");
+            htmlButton.Attributes.Add("style", "float:right");
+            htmlButton.InnerHtml += "volgende stap";
+
+            return new MvcHtmlString(htmlButton.ToString());
+
         }
     }
 }
