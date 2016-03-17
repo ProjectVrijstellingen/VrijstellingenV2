@@ -39,32 +39,26 @@ $("#navStap1").click(function (e) {
     e.preventDefault();
     toonStap(1);
 });
-
 $("#navStap2").click(function (e) {
     e.preventDefault();
     toonStap(2);
 });
-
 $("#navStap3").click(function (e) {
     e.preventDefault();
     toonStap(3);
 });
-
 $("#navStap4").click(function (e) {
     e.preventDefault();
     toonStap(4);
 });
-
 $("#navStap5").click(function (e) {
     e.preventDefault();
     toonStap(5);
 });
-
 $("#navStap6").click(function (e) {
     e.preventDefault();
     toonStap(6);
 });
-
 $("#navStap7").click(function (e) {
     e.preventDefault();
     toonStap(7);
@@ -74,7 +68,7 @@ var toonStap = function (nr) {
     if (nr > localStorage.getItem("lastStep")) {
         localStorage.lastStep = nr;
     }
-    VerbergAllStappen(nr-1);
+    VerbergAllStappen(7);
     $("#stap" + nr).removeClass('hide');
 }
 

@@ -33,7 +33,7 @@ namespace VTP2015.Modules.Student
 
         [Route("")]
         [HttpPost]
-        public ActionResult AddFile(IndexViewModel viewModel)
+        public ActionResult AddFile(IndexViewModel viewModel) /*het volledige dossier wegschrijven naar de database*/
         {
 
             ModelState.Clear();     
@@ -51,9 +51,7 @@ namespace VTP2015.Modules.Student
                 errors.Add("FileName does already exist!");
                 return Json(errors.ToArray());
             }
-            /*aangepast*/
             Directory.CreateDirectory(Server.MapPath("/bewijzen/"+name));
-            /*tot hier*/
             viewModel.File.SaveAs(path);
 
             var dbBewijs = new Evidence
@@ -69,7 +67,7 @@ namespace VTP2015.Modules.Student
 
         [Route("DeleteEvidence")]
         [HttpPost]
-        public ActionResult DeleteEvidence(int bewijsId)
+        public ActionResult DeleteEvidence(int bewijsId) /* verwijder bewijs */
         {
             if (!_studentFacade.IsEvidenceFromStudent(User.Identity.Name))
                 return Content("bewijs bestaat niet voor gebruiker!");
@@ -81,11 +79,9 @@ namespace VTP2015.Modules.Student
                 : "Voltooid!");
         }
 
-       
-
         [Route("InfoWidget")]
         [HttpGet]
-        public ActionResult InfoWidget()
+        public ActionResult InfoWidget() /* toont de accountgegevens van de aangemelde user*/
         {
             var model = _studentFacade.GetStudent(User.Identity.Name).ProjectTo<StudentViewModel>().First();
 
@@ -102,9 +98,9 @@ namespace VTP2015.Modules.Student
             return PartialView(models.ToArray());
         }
 
-        [Route("EvidenceListWidget")]
+        [Route("EvidenceListWidget")] 
         [HttpGet]
-        public PartialViewResult EvidenceListWidget()
+        public PartialViewResult EvidenceListWidget() /* toont alle bewijzen */
         {
             var models = _studentFacade.GetEvidenceByStudentEmail(User.Identity.Name)
                 .ProjectTo<EvidenceListViewModel>();
@@ -114,7 +110,7 @@ namespace VTP2015.Modules.Student
 
         [Route("EducationListWidget")]
         [HttpGet]
-        public PartialViewResult EducationListWidget()
+        public PartialViewResult EducationListWidget() /* lijst van alle modules + vakken */
         {
             var models = _studentFacade.GetPrevEducationsByStudentEmail(User.Identity.Name)
                 .ProjectTo<EducationListViewModel>();
@@ -129,7 +125,7 @@ namespace VTP2015.Modules.Student
             return PartialView();
         }
 
-        [Route("AddEducationWidget")]
+        [Route("AddEducationWidget")] /* lijst van alle gevraagde modules of vakken */
         [HttpGet]
         public PartialViewResult AddEducationWidget()
         {
@@ -139,7 +135,7 @@ namespace VTP2015.Modules.Student
         [PreventSpam]
         [Route("AddEducation")]
         [HttpPost]
-        public ActionResult AddEducation(AddEducationViewModel viewModel)
+        public ActionResult AddEducation(AddEducationViewModel viewModel) /* voeg een vak toe */
         {
 
             ModelState.Clear();
@@ -155,7 +151,7 @@ namespace VTP2015.Modules.Student
 
         [Route("DeleteEducation")]
         [HttpPost]
-        public ActionResult DeleteEducation(int educationId)
+        public ActionResult DeleteEducation(int educationId) /* verwijder een vak */
         {
             return Content(!_studentFacade.DeleteEducation(educationId)
                 ? "gegeven opleiding kon niet verwijdert worden!"
@@ -184,7 +180,7 @@ namespace VTP2015.Modules.Student
         #region dossier
         [Route("File/{fileId}")]
         [HttpGet]
-        public ActionResult File(int fileId)
+        public ActionResult File(int fileId) 
         {
             if (!_studentFacade.IsFileFromStudent(User.Identity.Name, fileId))
                 return RedirectToAction("Index");
