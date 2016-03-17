@@ -81,6 +81,8 @@ namespace VTP2015.Modules.Student
                 : "Voltooid!");
         }
 
+       
+
         [Route("InfoWidget")]
         [HttpGet]
         public ActionResult InfoWidget()

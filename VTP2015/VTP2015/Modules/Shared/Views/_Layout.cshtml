@@ -32,7 +32,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        @Html.RouteLink("Dashboard", new { controller = "Authentication", action = "Home" })
+                        @Html.RouteLink("Start", new { controller = "Authentication", action = "Home" })
+                    </li>
+                    <li>
+                        @Html.RouteLink("Account", new { controller = "Student", action = "InfoWidget" })
                     </li>
                     <li>
                         @Html.RouteLink("Feedback", new { controller = "Feedback", action = "Index" })

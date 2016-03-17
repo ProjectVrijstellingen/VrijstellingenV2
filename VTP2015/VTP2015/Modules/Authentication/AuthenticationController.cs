@@ -98,7 +98,7 @@ namespace VTP2015.Modules.Authentication
         {
             return RedirectToRoute(new { controller = GetRole(User.Identity.Name), action = "Index"});
         }
-
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && _userManager != null)
