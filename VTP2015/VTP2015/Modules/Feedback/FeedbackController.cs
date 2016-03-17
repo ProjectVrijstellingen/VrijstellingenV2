@@ -17,15 +17,20 @@ namespace VTP2015.Modules.Feedback
             _feedbackFacade = feedbackFacade;
             _identityRepository = identityRepository;
         }
+
+        public PartialViewResult Home()
+        {
+            return PartialView("AddFeedbackWidget");
+        }
         // GET: /Feedback
         [Route("")]
         public PartialViewResult Index()
         {
-            var model = new IndexViewModel
-            {
-                User = _identityRepository.GetUserByEmail("joachim.bockland")
-            };
-            return PartialView(model);
+            //var model = new IndexViewModel
+            //{
+            //    User = _identityRepository.GetUserByEmail("joachim.bockland")
+            //};
+            return PartialView();
         }
 
 

@@ -1,0 +1,92 @@
+﻿//pas refactoren als alle views goed staan.
+$(document).ready(function () {
+    showPrevProgress();
+});
+
+//buttons
+$("#btnStap0").click(function () {
+    toonStap(1);
+    $("#navStap1").parent().removeClass('hide');
+});
+$("#btnStap1").click(function () {
+    toonStap(2);
+    $("#navStap2").parent().removeClass('hide');
+});
+$("#btnStap2").click(function () {
+    toonStap(3);
+    $("#navStap3").parent().removeClass('hide');
+});
+$("#btnStap3").click(function () {
+    toonStap(4);
+    $("#navStap4").parent().removeClass('hide');
+});
+$("#btnStap4").click(function () {
+    toonStap(5);
+    $("#navStap5").parent().removeClass('hide');
+});
+$("#btnStap5").click(function () {
+    toonStap(6);
+    $("#navStap6").parent().removeClass('hide');
+});
+$("#btnStap6").click(function () {
+    toonStap(7);
+    $("#navStap7").parent().removeClass('hide');
+});
+
+
+//nav bars
+$("#navStap1").click(function (e) {
+    e.preventDefault();
+    toonStap(1);
+});
+
+$("#navStap2").click(function (e) {
+    e.preventDefault();
+    toonStap(2);
+});
+
+$("#navStap3").click(function (e) {
+    e.preventDefault();
+    toonStap(3);
+});
+
+$("#navStap4").click(function (e) {
+    e.preventDefault();
+    toonStap(4);
+});
+
+$("#navStap5").click(function (e) {
+    e.preventDefault();
+    toonStap(5);
+});
+
+$("#navStap6").click(function (e) {
+    e.preventDefault();
+    toonStap(6);
+});
+
+$("#navStap7").click(function (e) {
+    e.preventDefault();
+    toonStap(7);
+});
+
+var toonStap = function (nr) {
+    if (nr > localStorage.getItem("lastStep")) {
+        localStorage.lastStep = nr;
+    }
+    VerbergAllStappen(nr-1);
+    $("#stap" + nr).removeClass('hide');
+}
+
+var VerbergAllStappen = function (AantalStappen) {
+    for (var i = 0; i <= AantalStappen; i++) {
+        $("#stap" + i).addClass('hide');
+    }
+}
+
+var showPrevProgress = function () {
+    var prevProgress = localStorage.getItem("lastStep")
+    for (var i = 0; i <= prevProgress; i++) {
+        $("#navStap" + i).parent().removeClass('hide');
+    }
+}

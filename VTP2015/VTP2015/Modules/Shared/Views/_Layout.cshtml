@@ -35,6 +35,9 @@
                         @Html.RouteLink("Dashboard", new { controller = "Authentication", action = "Home" })
                     </li>
                     <li>
+                        @Html.RouteLink("Feedback", new { controller = "Feedback", action = "Index" })
+                    </li>
+                    <li>
                         @if (im.HasRole(User.Identity.Name, "Counselor"))
                         {
                             <li>
