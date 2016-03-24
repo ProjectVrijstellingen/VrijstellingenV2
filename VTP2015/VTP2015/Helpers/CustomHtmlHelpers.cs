@@ -267,7 +267,6 @@ namespace VTP2015.Helpers
             htmlButton.InnerHtml += "volgende stap";
 
             return new MvcHtmlString(htmlButton.ToString());
-
         }
     }
 }

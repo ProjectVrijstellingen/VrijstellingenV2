@@ -5,5 +5,6 @@
         public string ModuleName { get; set; }
         public string PartimName { get; set; }
         public string SuperCode { get; set; }
+        public int LecturerID { get; set; }
     }
 }

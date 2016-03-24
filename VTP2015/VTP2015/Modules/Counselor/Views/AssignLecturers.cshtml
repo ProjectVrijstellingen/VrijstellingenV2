@@ -12,7 +12,7 @@
                     {
                         <li id="@partim.SuperCode" class="list-group-item">
                             <b>@partim.ModuleName - @partim.PartimName</b>
-                            <input class="email" type="email"/>
+                            <input class="email" type="email" value="@partim.LecturerId" />
                             @Html.ValidationSummary(false, "", new { @class = "text-danger" })
                         </li>
                     }

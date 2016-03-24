@@ -87,15 +87,26 @@ namespace VTP2015.ServiceLayer.Counselor
                     .Count(x => x.Lecturer.Email == "docent@howest.be");
         }
 
-        public IQueryable<PartimInformation> GetPartimsNoLecturer(string email)
+        //public IQueryable<PartimInformation> GetPartimsNoLecturer(string email)
+        //{
+        //    return _counselorRepository.Table
+        //        .Where(x => x.Email == email)
+        //        .Select(x => x.Education)
+        //        .SelectMany(x => x.Routes)
+        //        .SelectMany(x => x.PartimInformation)
+        //        .Where(x => x.Lecturer.Email == "docent@howest.be")
+        //        .ProjectTo<PartimInformation>();
+        //}
+
+        public IQueryable<PartimInformation> GetAllPartims(string email)
         {
             return _counselorRepository.Table
-                .Where(x => x.Email == email)
-                .Select(x => x.Education)
-                .SelectMany(x => x.Routes)
-                .SelectMany(x => x.PartimInformation)
-                .Where(x => x.Lecturer.Email == "docent@howest.be")
-                .ProjectTo<PartimInformation>();
+                                       .Where(x => x.Email == email)
+                                       .Select(x => x.Education)
+                                       .SelectMany(x => x.Routes)
+                                       .SelectMany(x => x.PartimInformation)
+                                       .Where(x => x.Lecturer.Email == "docent@howest.be")
+                                       .ProjectTo<PartimInformation>();
         }
 
         public string[] AssignLector(string email, string superCode)

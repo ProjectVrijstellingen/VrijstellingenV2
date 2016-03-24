@@ -138,7 +138,8 @@ namespace VTP2015.Modules.Counselor
         [HttpGet]
         public ActionResult AssignLecturers()
         {
-            var models = _counselorFacade.GetPartimsNoLecturer(User.Identity.Name).ProjectTo<PartimInformationViewModel>();
+            //var models = _counselorFacade.GetPartimsNoLecturer(User.Identity.Name).ProjectTo<PartimInformationViewModel>();
+            var models = _counselorFacade.GetAllPartims(User.Identity.Name).ProjectTo<PartimInformationViewModel>();
             return View(models.ToArray());
         }
 

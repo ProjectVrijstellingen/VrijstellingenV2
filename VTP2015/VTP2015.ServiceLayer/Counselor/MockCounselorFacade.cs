@@ -305,5 +305,10 @@ namespace VTP2015.ServiceLayer.Counselor
         {
             throw new NotImplementedException();
         }
+
+        public IQueryable<PartimInformation> GetAllPartims(string email)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
