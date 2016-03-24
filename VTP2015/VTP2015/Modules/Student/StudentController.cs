@@ -125,7 +125,7 @@ namespace VTP2015.Modules.Student
             return PartialView();
         }
 
-        [Route("AddEducationWidget")] /* lijst van alle gevraagde modules of vakken */
+        [Route("AddEducationWidget")] /* voeg opleiding toe */
         [HttpGet]
         public PartialViewResult AddEducationWidget()
         {
@@ -151,7 +151,7 @@ namespace VTP2015.Modules.Student
 
         [Route("DeleteEducation")]
         [HttpPost]
-        public ActionResult DeleteEducation(int educationId) /* verwijder een vak */
+        public ActionResult DeleteEducation(int educationId) /* verwijder een opleiding */
         {
             return Content(!_studentFacade.DeleteEducation(educationId)
                 ? "gegeven opleiding kon niet verwijdert worden!"

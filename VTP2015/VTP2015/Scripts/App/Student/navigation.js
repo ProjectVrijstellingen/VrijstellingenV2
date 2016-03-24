@@ -3,6 +3,10 @@ $(document).ready(function () {
     showPrevProgress();
 });
 
+$("#btnStap00").click(function () {
+    toonStap(1);
+    $("#navStap1").parent().removeClass('hide');
+});
 //buttons
 $("#btnStap0").click(function () {
     toonStap(1);
