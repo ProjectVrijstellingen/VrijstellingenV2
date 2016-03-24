@@ -1,11 +1,13 @@
-﻿@using VTP2015.Helpers
+﻿@using VTP2015.Config
+@using VTP2015.Helpers
+@using VTP2015.ServiceLayer.Student.Models
+@model VTP2015.Modules.Student.ViewModels.FileListViewModel[]
 @{
     ViewBag.Title = "Student - FileStudentName";
 }
 
-
 <div class="container-fix">
-    <br/>
+    <br />
 </div>
 
 <style type="text/css">
@@ -138,7 +140,7 @@
 </div>
 
 <div class="container">
-
+    @* NAVIGATIE *@
     <h1>Aanvraagformulier</h1>
     <ul class="nav nav-wizard">
         <li class="hide"><a href="#" id="navStap1">Opleidingen</a></li>
@@ -152,8 +154,9 @@
     <br />
     <div class="row">
 
-        @* beginpagina *@
+        
         <div class="col-md-10">
+            @* BEGINPAGINA *@
             <div class="row hide" id="stap0">
                 <div class="col-md-7">
                     <a href="#">
@@ -168,7 +171,7 @@
                 </div>
             </div>
 
-
+            @* OPLEIDINGEN *@
             <div id="stap1" class="hide">
                 @using (Html.BeginPanel("Vorige opleidingen die u hebt gevolgd:"))
             {
@@ -178,6 +181,7 @@
                 @Html.NextButton("btnStap1")
             </div>
 
+            @* BEWIJZEN *@
             <div id="stap2" class="hide">
                 @using (Html.BeginPanel("Dien hier uw bewijzen in (bijvoorbeeld een rapport):"))
             {
@@ -187,6 +191,7 @@
                 @Html.NextButton("btnStap2")
             </div>
 
+            @* DOSSIER OPENEN / SELECTEREN *@
             <div id="stap3" class="hide">
                 <div data-url="@Url.Action("SubmitFile","Student")">
                     @Html.Action("FileWidget")
@@ -194,48 +199,47 @@
 
             </div>
 
+            @* DOSSIER INVULLEN *@
             <div id="stap4" class="">
                 <form role="form">
                     <div class="container-fix">
                         <div class="row">
+                            <div id="bewijzenColumn" class="col-md-4 hide">
+                                @Html.Action("SelectEvidenceWidget")
+                                @Html.Action("SelectEducationWidget")
+                            </div>
 
                             @Html.Action("AvailablePartimsWidget")
 
                             @Html.Action("RequestDetailWidget")
 
                             @Html.Action("RequestedPartimsWidget")
+
+                            @Html.NextButton("btnStap4")
                         </div>
                     </div>
                 </form>
-                @Html.NextButton("btnStap4")
+
             </div>
 
+            @* DOSSIER DETAILS AANVULLEN *@
             <div id="stap5" class="hide">
                 <p>dossier detail</p>
-
-                @Html.Action("SelectEducationWidget")
-
-                @Html.Action("SelectEvidenceWidget")
-
-
                 @Html.NextButton("btnStap5")
+
             </div>
 
+            @* TOTAAL OVERZICHT VAN HET DOSSIER *@
             <div id="stap6" class="hide">
                 <p>totaal overzicht van dossier</p>
                 @Html.NextButton("btnStap6")
             </div>
 
-            <div id="stap7" class="hide">
-                <p>indienen</p>
-                @Html.NextButton("btnStap7")
+            @* INDIENEN *@
+            <div id="stap7" class="hide">               
+                <a href="../Submit">DOSSIER INDIENEN</a> 
             </div>
-
         </div>
-        @*<div class="col-md-2">
-                @Html.Action("InfoWidget")
-            </div>*@
-    </div>
 </div>
-
+           
 @Scripts.Render("~/bundles/student")

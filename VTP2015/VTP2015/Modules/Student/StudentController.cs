@@ -168,11 +168,11 @@ namespace VTP2015.Modules.Student
         }
 
         [Route("Submit")]
-        [HttpPost]
+       
         public ActionResult SubmitFile()
         {
             var configFile = new ConfigFile();
-            return Json(_studentFacade.SumbitFile(User.Identity.Name, configFile.AcademieJaar()));
+            return Json(_studentFacade.SumbitFile(User.Identity.Name, configFile.AcademieJaar()), JsonRequestBehavior.AllowGet);
         }
 
         #endregion
