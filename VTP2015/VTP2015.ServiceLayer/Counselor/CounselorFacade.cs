@@ -86,17 +86,17 @@ namespace VTP2015.ServiceLayer.Counselor
                     .SelectMany(x => x.PartimInformation)
                     .Count(x => x.Lecturer.Email == "docent@howest.be");
         }
-
-        //public IQueryable<PartimInformation> GetPartimsNoLecturer(string email)
-        //{
-        //    return _counselorRepository.Table
-        //        .Where(x => x.Email == email)
-        //        .Select(x => x.Education)
-        //        .SelectMany(x => x.Routes)
-        //        .SelectMany(x => x.PartimInformation)
-        //        .Where(x => x.Lecturer.Email == "docent@howest.be")
-        //        .ProjectTo<PartimInformation>();
-        //}
+        //not using this at the moment!
+        public IQueryable<PartimInformation> GetPartimsNoLecturer(string email)
+        {
+            return _counselorRepository.Table
+                .Where(x => x.Email == email)
+                .Select(x => x.Education)
+                .SelectMany(x => x.Routes)
+                .SelectMany(x => x.PartimInformation)
+                .Where(x => x.Lecturer.Email == "docent@howest.be")
+                .ProjectTo<PartimInformation>();
+        }
 
         public IQueryable<PartimInformation> GetAllPartims(string email)
         {
