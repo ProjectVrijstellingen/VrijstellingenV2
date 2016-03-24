@@ -13,9 +13,9 @@
             UpdateTargetId = "response",
         }))
         {
-            @Html.TextAreaFor(m => m.Text, new { @class = "form-control"} );
+            @Html.TextAreaFor(m => m.Text, new { @class = "form-control", @rows = "10", @cols = "200" });
             <br />
-            <input type="submit" value="Verstuur" class="btn btn-primary"/>
+            <input type="submit" value="Verstuur" class="btn btn-primary" />
         }
         <div id="response">
 

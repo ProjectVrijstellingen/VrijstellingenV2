@@ -7,13 +7,14 @@
     var submitted = Model.All(x => x.FileStatus == FileStatus.Submitted);
     if (Model.Length == 0) { submitted = false; }
 }
-    @using (Html.BeginPanel("Mijn dossiers"))
+    @using (Html.BeginPanel("Kies uw dossier:"))
     {
         <ul class="list-group">
             @foreach (var file in Model)
             {
                 <li class="list-group-item">
-                    @Html.RouteLink(file.Description, new {controller = "Student", action = "File", fileId = file.Id})
+                    @Html.RouteLink(file.Description, new { controller = "Student", action = "File", fileId = file.Id })
+                   
                 </li>
             }
         </ul>
@@ -28,8 +29,9 @@
 
             if (!submitted)
             {
-                <span id="btnIndienen" class="btn btn-primary">Dien in</span>
+                <span id="btnIndienen" class="btn btn-primary">Open dossier</span>
                 @Html.ValidationSummary(false, "", new { @class = "text-danger", @id = "indienErrors" })
             }
         }
+        @Html.NextButton("btnStap3")
     }

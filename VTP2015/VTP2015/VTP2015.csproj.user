@@ -3,6 +3,8 @@
   <PropertyGroup>
     <NameOfLastUsedPublishProfile>Foundation</NameOfLastUsedPublishProfile>
     <ToolsVersionPromptShown>1.8</ToolsVersionPromptShown>
+    <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
+    <WebStackScaffolding_LayoutPageFile>~/Modules/Shared/Views/_Layout.cshtml</WebStackScaffolding_LayoutPageFile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

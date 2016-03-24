@@ -39,3 +39,13 @@ C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.Entities\bin\
 C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.Entities\obj\Debug\VTP2015.Entities.csprojResolveAssemblyReference.cache
 C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.Entities\obj\Debug\VTP2015.Entities.dll
 C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\VTP2015.Entities\obj\Debug\VTP2015.Entities.pdb
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\bin\Debug\VTP2015.Entities.dll
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\bin\Debug\VTP2015.Entities.pdb
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\bin\Debug\AutoMapper.dll
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\bin\Debug\Elmah.dll
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\bin\Debug\nunit.framework.dll
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\bin\Debug\AutoMapper.xml
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\bin\Debug\nunit.framework.xml
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\obj\Debug\VTP2015.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\obj\Debug\VTP2015.Entities.dll
+C:\Users\Jamie\Desktop\Nieuwe map\VrijstellingenV2\VTP2015\VTP2015.Entities\obj\Debug\VTP2015.Entities.pdb
