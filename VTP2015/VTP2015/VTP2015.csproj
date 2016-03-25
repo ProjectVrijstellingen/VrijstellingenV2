@@ -376,6 +376,7 @@
     <Content Include="Scripts\App\Counselor\Countdown.js" />
     <Content Include="Scripts\App\Counselor\CustomCheckBox.js" />
     <Content Include="Scripts\App\Lecturer\ArchiveScripts.js" />
+    <Content Include="Scripts\App\Lecturer\navigation.js" />
     <Content Include="Scripts\App\Student\navigation.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
