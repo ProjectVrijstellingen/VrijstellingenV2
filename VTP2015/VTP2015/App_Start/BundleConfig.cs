@@ -52,7 +52,8 @@ namespace VTP2015
                 "~/Scripts/App/Counselor/assignLecturers"));
 
             bundles.Add(new ScriptBundle("~/bundles/lecturer").Include(
-                "~/Scripts/App/Lecturer/DocentBewijsViewScript.js"));
+                "~/Scripts/App/Lecturer/DocentBewijsViewScript.js",
+                "~/Scripts/App/Lecturer/navigation.js"));
 
 
             // Set EnableOptimizations to false for debugging. For more information,

@@ -97,7 +97,7 @@ namespace VTP2015.ServiceLayer.Counselor
                 .Where(x => x.Lecturer.Email == "docent@howest.be")
                 .ProjectTo<PartimInformation>();
         }
-
+        
         public IQueryable<PartimInformation> GetAllPartims(string email)
         {
             return _counselorRepository.Table
@@ -114,8 +114,15 @@ namespace VTP2015.ServiceLayer.Counselor
             var errors = new List<string>();
             if(!email.Contains("@howest.be")) errors.Add("Emailadres niet van Howest");
             if(!_partimInformationRepository.Table.Any(x => x.SuperCode == superCode)) errors.Add("Verkeerde partim");
-            if (errors.Count > 0) return errors.ToArray();
+            if (errors.Count > 0)  return errors.ToArray();
+
+            /*working on this, need to do more research*/
+
+            //PartimInformation PartimEdit = _partimInformationRepository.GetById(superCode);
+            //PartimEdit.LecturerID = _lecturerRepository.Table.Where(y => y.Email == email).Select(y => y.Id).First();
             
+
+
             _partimInformationRepository.Table.Where(x => x.SuperCode == superCode).Each(x => x.Lecturer = _lecturerRepository.Table.FirstOrDefault(l => l.Email == email) ?? new Entities.Lecturer
             {
                 Email = email,

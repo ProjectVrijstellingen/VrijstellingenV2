@@ -71,8 +71,8 @@ var setCurrentPage = function(nr){
     showCurrentPage();
 }
 
-var showCurrentPage = function(){
-    VerbergAllStappen(7);
+var showCurrentPage = function () {
+    VerbergAllStappen(5);
     $("#stap" + localStorage.currentStap).removeClass('hide');
 }
 
@@ -87,6 +87,7 @@ var toonStap = function (nr) {
 var VerbergAllStappen = function (AantalStappen) {
     for (var i = 0; i <= AantalStappen; i++) {
         $("#stap" + i).addClass('hide');
+        
     }
 }
 
