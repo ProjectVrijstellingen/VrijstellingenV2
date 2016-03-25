@@ -19,10 +19,8 @@
         <li class="hide"><a href="#" id="navStap1">Opleidingen</a></li>
         <li class="hide"><a href="#" id="navStap2">Bewijzen</a></li>
         <li class="hide"><a href="#" id="navStap3">Dossier aanmaken/selecteren</a></li>
-        <li class="hide"><a href="#" id="navStap4">Keuze modules</a></li>
-        <li class="hide"><a href="#" id="navStap5">Dossier detail</a></li>
-        <li class="hide"><a href="#" id="navStap6">Dossier overzicht</a></li>
-        <li class="hide"><a href="#" id="navStap7">Dossier indienen</a></li>
+        <li class="hide"><a href="#" id="navStap4">Modules aanvragen</a></li>
+        <li class="hide"><a href="#" id="navStap5">Dossier indienen</a></li>
     </ul>
     <br />
     <div class="row">
@@ -58,6 +56,7 @@
             {
                     @Html.Action("EvidenceListWidget")
                     @Html.Action("AddFileWidget")
+                    
                 }
                 @Html.NextButton("btnStap2")
             </div>
@@ -71,26 +70,17 @@
 
             <div id="stap4" class="hide">
 
-               @Html.NextButton("btnStap4")
+               
             </div>
 
             <div id="stap5" class="hide">
                 @Html.NextButton("btnStap5")
             </div>
-
-            <div id="stap6" class="hide">
-                @Html.NextButton("btnStap6")
-            </div>
-
-            <div id="stap7" class="hide">
-                @Html.NextButton("btnStap7")
-            </div>
            
         </div>
-        @*<div class="col-md-2">
-            @Html.Action("InfoWidget")
-        </div>*@
+       
     </div>
+   
 </div>
 
 @Scripts.Render("~/bundles/student")
