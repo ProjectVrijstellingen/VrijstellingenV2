@@ -1,4 +1,11 @@
-﻿body {
+﻿footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -20,49 +27,50 @@ textarea {
     position: relative;
     overflow: hidden;
 }
-.btn-file input[type=file] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    font-size: 100px;
-    text-align: right;
-    filter: alpha(opacity=0);
-    opacity: 0;
-    outline: none;
-    background: white;
-    cursor: inherit;
-    display: block;
-}
+
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
 
 .bewijs-embed {
-    width:inherit;
-    height:auto;
+    width: inherit;
+    height: auto;
 }
 
 
 .bewijspointer {
-    padding-right:10px;
-    padding-bottom:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
-.opinionButtons{
-    padding:10px;
+.opinionButtons {
+    padding: 10px;
 }
 
-.inheritWidth{
+.inheritWidth {
     width: 100%;
 }
 
-embed{
-    height:1000px;
+embed {
+    height: 1000px;
 }
 
-.bewijspointerdiv{
-    padding:15px;
+.bewijspointerdiv {
+    padding: 15px;
 }
 
-.bewijsdiv{
+.bewijsdiv {
     padding: 10px;
 }
