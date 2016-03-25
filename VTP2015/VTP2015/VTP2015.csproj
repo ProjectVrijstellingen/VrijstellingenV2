@@ -337,6 +337,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Scripts\App\Entire\feedback.js" />
     <Content Include="Modules\Web.config">
       <SubType>Designer</SubType>
     </Content>

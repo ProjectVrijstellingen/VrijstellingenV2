@@ -38,3 +38,23 @@ C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\A
 C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\UnitTests\obj\Debug\UnitTests.dll
 C:\Users\Tim Ramandt\Desktop\Test\VrijstellingenV2\VTP2015\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\UnitTests.dll.config
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\VTP2015.DataAccess.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\VTP2015.Entities.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\VTP2015.ServiceLayer.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\AutoMapper.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\VTP2015.DataAccess.pdb
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\VTP2015.Entities.pdb
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\VTP2015.ServiceLayer.pdb
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\bin\Debug\AutoMapper.xml
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\poppe\Documents\GitHub\VrijstellingenV2\VTP2015\UnitTests\obj\Debug\UnitTests.pdb

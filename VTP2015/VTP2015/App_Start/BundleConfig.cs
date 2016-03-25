@@ -31,6 +31,9 @@ namespace VTP2015
 
             //Modules
 
+            bundles.Add(new ScriptBundle("~/bundles/entire").Include(
+                "~/Scripts/App/Entire/feedback.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/admin").Include(
                 "~/Scripts/App/Admin/adminPanel.js"));
 
