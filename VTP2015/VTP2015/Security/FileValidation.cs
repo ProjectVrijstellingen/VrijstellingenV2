@@ -54,7 +54,7 @@ namespace VTP2015.Security
             {
                 return "FileName type behoort niet tot: " + GetExtensions();
             }
-            return !IsFilenameValid(_file) ? "Filename can not be longer then 255 char." : "ERROR!";
+            return !IsFilenameValid(_file) ? "De naam van de file is te lang! Gebruik maximaal 255 karakters." : "ERROR!";
         }
 
         private static bool IsFilenameValid(HttpPostedFileBase file)
