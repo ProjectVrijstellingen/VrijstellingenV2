@@ -1,12 +1,9 @@
 ﻿//pas refactoren als alle views goed staan.
 $(document).ready(function () {
     showPrevProgress();
+    showCurrentPage();
 });
 
-$("#btnStap00").click(function () {
-    toonStap(1);
-    $("#navStap1").parent().removeClass('hide');
-});
 //buttons
 $("#btnStap0").click(function () {
     toonStap(1);
@@ -68,12 +65,23 @@ $("#navStap7").click(function (e) {
     toonStap(7);
 });
 
+
+var setCurrentPage = function(nr){
+    localStorage.currentStap = nr;
+    showCurrentPage();
+}
+
+var showCurrentPage = function(){
+    VerbergAllStappen(7);
+    $("#stap" + localStorage.currentStap).removeClass('hide');
+}
+
 var toonStap = function (nr) {
+    setCurrentPage(nr);
     if (nr > localStorage.getItem("lastStep")) {
         localStorage.lastStep = nr;
     }
-    VerbergAllStappen(7);
-    $("#stap" + nr).removeClass('hide');
+   
 }
 
 var VerbergAllStappen = function (AantalStappen) {
